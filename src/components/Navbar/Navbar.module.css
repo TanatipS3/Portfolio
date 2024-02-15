@@ -1,0 +1,40 @@
+nav{
+    background-color: #c55d80;
+}
+nav a{
+    color: rgb(230, 217, 36);
+    text-decoration: none;
+
+}
+nav .container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+nav .nav_con{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+nav .nav_con ul{
+    display: flex;
+    list-style: none;
+}
+nav .nav_con ul li{
+    margin: 0 35px;
+}
+nav .button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(189, 157, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+nav .button :hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, alpha);
+}
