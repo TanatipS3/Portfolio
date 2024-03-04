@@ -7,7 +7,7 @@ import Hero from './components/Hero/Hero'
 import Skills from './components/Skills/Skills'
 import Services from './components/Services/Services'
 import Portfolio from './components/Portfolio/Portfolio'
-
+import Number  from './components/Number/Number'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,7 +18,7 @@ function App() {
      <Skills/>
      <Services/>
      <Portfolio/>
-
+     <Number/>
     </>
   )
 }
